@@ -2,10 +2,10 @@ package tw.org.model;
 
 import java.util.ArrayList;
 
-public class TestUniverse extends Universe {
+public class TestGrid extends Grid {
     private final ArrayList<String> pattern;
 
-    public TestUniverse(ArrayList<String> pattern) {
+    public TestGrid(ArrayList<String> pattern) {
         super(null);
         this.pattern = pattern;
     }
