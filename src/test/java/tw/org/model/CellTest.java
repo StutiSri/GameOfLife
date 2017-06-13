@@ -9,7 +9,7 @@ import static junit.framework.TestCase.assertTrue;
 public class CellTest {
     @Test
     public void shouldCreateAliveCellFromInput(){
-        AliveCell expectedCell = new AliveCell(1,1);
+        Cell expectedCell = new Cell(1,1);
 
         Cell cell = new CellParser().createCell("1, 1");
 
